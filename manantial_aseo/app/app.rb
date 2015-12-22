@@ -6,7 +6,7 @@ module ManantialAseo
     register Padrino::Helpers
 
     enable :sessions
-
+    layout :app
     ##
     # Caching support.
     #
