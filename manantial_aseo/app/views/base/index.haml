@@ -2,7 +2,8 @@
   %img.user_image{:src => "/images/user.png"}
   %h3.user_name Administrador
 %div.menu
-  %button.options Productos
+  %button.options
+    %a{:href => url(:products, :products)}  Productos
   %button.options Reportes
   %button.options Ventas
   %button.options Gastos y Compras

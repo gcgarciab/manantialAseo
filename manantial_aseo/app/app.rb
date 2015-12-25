@@ -7,6 +7,7 @@ module ManantialAseo
 
     enable :sessions
     layout :app
+    
     ##
     # Caching support.
     #

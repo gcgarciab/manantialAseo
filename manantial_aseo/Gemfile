@@ -21,4 +21,4 @@ gem 'padrino', '0.12.5'
 
 
 #Google Calendar API
-gem 'google-api-client', '0.9.pre3', require: 'google/apis/calendar_v3'
+#gem 'google-api-client', '0.9.pre3', require: 'google/apis/calendar_v3'
