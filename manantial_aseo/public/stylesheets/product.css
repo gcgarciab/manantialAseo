@@ -1,3 +1,77 @@
+.user {
+  text-align: right;
+  font-size: 20px;
+  width: 100%;
+  white-space: nowrap;
+  margin-bottom: 20px; }
+  .user .user_name, .user .user_image {
+    padding: 0;
+    margin: 0;
+    display: inline; }
 
+.title {
+  text-align: center; }
+
+.product_form {
+  margin: 5%;
+  padding-left: 5%;
+  padding-right: 5%; }
+  .product_form .name {
+    font-size: 25px; }
+  .product_form .object {
+    width: 100%;
+    height: 35px;
+    color: #0900FF;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 18px; }
+
+.submit_buttons {
+  text-align: center; }
+  .submit_buttons .submit {
+    background: #3a7999;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+    border-radius: 6px;
+    color: #fff;
+    margin-left: 5%;
+    margin-right: 5%; }
+
+.head {
+  text-align: center;
+  margin: 5%; }
+
+.content {
+  margin: 5%;
+  padding-left: 5%;
+  padding-right: 5%; }
+  .content .search_object {
+    width: 50%;
+    margin: 0;
+    float: right;
+    text-align: right; }
+    .content .search_object .search {
+      position: relative;
+      top: 5px;
+      padding-right: 10px; }
+    .content .search_object .object {
+      width: 60%;
+      height: 35px;
+      color: #0900FF;
+      border-radius: 5px;
+      padding-left: 10px;
+      font-size: 18px; }
+  .content .add_object {
+    width: 50%;
+    margin: 0; }
+    .content .add_object .add_obj {
+      float: left;
+      position: relative;
+      top: 4px;
+      padding-right: 10px; }
+    .content .add_object .name_object {
+      margin: 0;
+      font-size: 25px; }
 
 /*# sourceMappingURL=product.css.map */

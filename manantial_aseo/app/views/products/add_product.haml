@@ -1,0 +1,17 @@
+.user
+  %img.user_image{:src => "/images/user.png"}
+  %h3.user_name Administrador
+
+.title
+  %h1 Agregar Producto
+
+.product_form
+  %form.add_product
+    %p.name Nombre:
+    %input.object{:type=>"text", :required => true, :placeholder => "Nombre del producto"}
+    %p.name Precio Compra:
+    %input.object{:type=>"text", :required => true, :placeholder => "Precio Compra"}
+
+.submit_buttons
+  %button.submit  Agregar
+  %button.submit  Cancelar

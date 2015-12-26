@@ -1,9 +1,13 @@
 ManantialAseo::App.controllers :products do
 
-  layout :app
-  
+  layout :products
+
   get :products do
     render :products
+  end
+
+  get :add_product do
+    render :add_product
   end
 
   # get :index, :map => '/foo/bar' do

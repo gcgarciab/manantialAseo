@@ -1,2 +1,17 @@
-%h2 Ventana de productos
-    
+.user
+  %img.user_image{:src => "/images/user.png"}
+  %h3.user_name Administrador
+
+.head
+  %h1 Productos
+
+.content
+  .search_object
+    %img.search{:src => "/images/search.png"}
+    //Agregar vinculo para buscar al gar click
+    %input.object{:type=>"text", :placeholder => "Buscar producto"}
+
+  .add_object
+    = link_to "/products/add_product" do
+      = image_tag "/images/add.png", class: "add_obj"
+    %p.name_object Agregar Producto
