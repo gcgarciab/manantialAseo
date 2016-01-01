@@ -1,0 +1,51 @@
+a {
+  text-decoration: none;
+  color: #fff; }
+
+.user {
+  text-align: right;
+  font-size: 20px;
+  width: 100%;
+  white-space: nowrap;
+  margin-bottom: 20px;
+  color: #000; }
+  .user .user_name, .user .user_image {
+    padding: 0;
+    margin: 0;
+    display: inline; }
+
+.title {
+  text-align: center; }
+
+h1 {
+  color: #000; }
+
+.content {
+  margin: 5%; }
+
+input {
+  color: #0B0B61;
+  font-size: 18px;
+  width: 100%;
+  border-radius: 5px;
+  padding-left: 10px; }
+
+.add_gasto {
+  color: #000;
+  font-size: 25px; }
+
+.summit_exp {
+  font-size: 20px;
+  background-color: #3a7999;
+  color: #fff;
+  border-radius: 5px;
+  border: 3;
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px; }
+
+.botones {
+  text-align: center;
+  margin: 5%; }
+
+/*# sourceMappingURL=expenses.css.map */

@@ -1,0 +1,16 @@
+.user
+  %img.user_image{:src => "/images/user.png"}
+  %h3.user_name Administrador
+
+.title
+  %h1 GASTOS Y COMPRAS
+
+.content
+
+  %form.add_gasto
+    %p Descripción
+    %input{:type=>"text" ,:placeholder=>"Descripción del gasto o compra"}
+    %p Total
+    %input{:type=>"text" ,:placeholder=>"Valor gastado"}
+.botones
+  %button.summit_exp Guardar
