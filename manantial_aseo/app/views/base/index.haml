@@ -4,7 +4,10 @@
 %div.menu
   %button.options
     %a{:href => url(:products, :products)}  Productos
-  %button.options Reportes
-  %button.options Ventas
-  %button.options Gastos y Compras
+  %button.options
+    %a{:href => url(:reports, :reports)} Reportes
+  %button.options
+    %a{:href => url(:sales, :sales)}  Ventas
+  %button.options
+    %a{:href => url(:expenses, :expenses)}  Gastos y Compras
 %div.date
